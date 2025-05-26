@@ -1,0 +1,80 @@
+/* This CSS file styles the charity: water landing page, applying brand colors and fonts */
+
+/* Set the body font and background color */
+body {
+    font-family: 'Avenir', sans-serif; /* Use Avenir font for the body text */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #F5F5F5; /* Light gray background for the page */
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('path/to/your/background-image.jpg'); /* Full-width background image */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    color: white; /* White text color for contrast */
+    text-align: center; /* Center text */
+}
+
+/* Headline styles */
+.hero h1 {
+    font-size: 3em; /* Large headline */
+    margin: 0; /* Remove default margin */
+}
+
+/* Subheadline styles */
+.hero p {
+    font-size: 1.5em; /* Smaller subheadline */
+    margin: 10px 0; /* Add some margin */
+}
+
+/* Story section styles */
+.story {
+    padding: 50px; /* Add padding around the section */
+    background-color: #FFFFFF; /* White background for the story section */
+    color: #333333; /* Dark text color */
+}
+
+/* Call-to-action section styles */
+.call-to-action {
+    background-color: #FFC907; /* Primary yellow color */
+    padding: 20px; /* Add padding */
+    text-align: center; /* Center text */
+}
+
+/* Button styles */
+.button {
+    background-color: #2E9DF7; /* Primary blue color */
+    color: white; /* White text color */
+    padding: 15px 30px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1.2em; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Button hover effect */
+.button:hover {
+    background-color: #159A48; /* Change to dark green on hover */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2em; /* Smaller headline on mobile */
+    }
+
+    .hero p {
+        font-size: 1.2em; /* Smaller subheadline on mobile */
+    }
+
+    .story {
+        padding: 20px; /* Less padding on mobile */
+    }
+}
